@@ -19,7 +19,7 @@ Implement Security Groups following least privilege principles.
 Demonstrate a production-style AWS deployment.
 
 ## AWS Services Used
-
+------------------------------------------------------------------------------------------
 | Service                         | Purpose                                              |
 | ------------------------------- | ---------------------------------------------------- |
 | Amazon EC2                      | Hosts Apache, PHP, and WordPress                     |
@@ -35,9 +35,7 @@ Demonstrate a production-style AWS deployment.
 | Public Subnets                  | Host the Application Load Balancer and EC2 instances |
 | Private Subnets                 | Host Amazon RDS and Amazon EFS                       |
 | Security Groups                 | Control inbound and outbound network traffic         |
-
----
-
+------------------------------------------------------------------------------------------
 ## Architecture Overview
 
 ```text
@@ -61,35 +59,6 @@ Amazon RDS (MariaDB)
       │
       ▼
 Amazon CloudWatch (Monitoring & Metrics)
-
----
-
-## Network Architecture
-
-* Amazon VPC
-* Public Subnets
-* Private Subnets
-* Internet Gateway
-* Route Tables
-* Security Groups
-* Application Load Balancer
-* Auto Scaling Group
-
----
-
-## Monitoring
-
-Amazon CloudWatch is used to monitor:
-
-* EC2 CPU Utilization
-* Memory Utilization
-* Disk Activity
-* Network Traffic
-* Apache Server Status
-* Application Performance
-* System Logs
-* CloudWatch Metrics
-
 ---
 
 ## Deployment Workflow
@@ -150,27 +119,6 @@ Secure network architecture using VPC and Security Groups
 Public and Private subnet implementation
 Production networking architecture
 
-## Amazon CloudWatch is used to monitor:
-
-EC2 CPU Utilization
-Memory Usage
-Disk Activity
-Network Traffic
-Application Logs
-HTTP Metrics
-System Performance
-
-## Repository Structure
-AWS-LAMP-WordPress-Deployment
-│
-├── README.md
-├── diagrams/
-├── scripts/
-├── configs/
-├── commands/
-├── screenshots/
-└── report/
-
 ## Advantages
 Production-oriented AWS architecture
 High Availability
@@ -193,7 +141,6 @@ Kubernetes Migration
 AWS CodePipeline Integration
 
 ## Learning Outcomes
-
 This project demonstrates practical knowledge of:
 Linux Administration
 Apache Web Server
@@ -211,7 +158,6 @@ Security Groups
 Production Cloud Architecture
 
 ## Conclusion
-
 This project demonstrates the deployment of a scalable and production-oriented LAMP Stack architecture on AWS using Amazon Linux 2023, Apache HTTP Server, PHP, Amazon RDS (MariaDB), Amazon EFS, Application Load Balancer, Auto Scaling Group, CloudWatch, and Route 53. The implementation follows cloud best practices by separating the web and database tiers, using managed services, monitoring infrastructure health, and designing for scalability, security, and high availability. The project provides hands-on experience with deploying and managing modern web applications in a production-like AWS environment.
 
 
