@@ -119,27 +119,6 @@ Secure network architecture using VPC and Security Groups
 Public and Private subnet implementation
 Production networking architecture
 
-## Advantages
-Production-oriented AWS architecture
-High Availability
-Automatic Scaling
-Secure Networking
-Managed Database Service
-Shared File Storage
-Easy Monitoring
-Modular Architecture
-Cost Effective
-Easy Maintenance
-
-## Future Enhancements
-HTTPS using SSL/TLS
-AWS WAF Integration
-CI/CD Pipeline
-Infrastructure as Code (Terraform / CloudFormation)
-Docker Container Deployment
-Kubernetes Migration
-AWS CodePipeline Integration
-
 ## Learning Outcomes
 This project demonstrates practical knowledge of:
 Linux Administration
